@@ -26,6 +26,7 @@ To open a previously saved environment, just run the following command from any 
 Here too, you can also use **-o** instead of **--open**
 
 
+
 ## Requirements & Dependencies
 This package depends on the following python packages and will install them if you don't already have them installed:
 
@@ -35,8 +36,10 @@ This package depends on the following python packages and will install them if y
 Just like these packages, Envpath is also open source software.
 
 
+
 ## Development
 Want to contribute code to this repo? You are welcome to do so.
+
 
 
 ## Contact the Author
@@ -44,7 +47,7 @@ Reach me via:
 Email - [Click to send mail](mailto:kwame@soscodesoftware.com)
 Twitter [@untamedthinking](https://twitter.com/untamedthinking)
 
-License
-----
 
+
+## License
 MIT
