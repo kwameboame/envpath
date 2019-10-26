@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: envpath
+Version: 0.1
+Summary: Utility for saving and retrieving your development environments and paths.
+Home-page: http://github.com/kwameboame/envpath
+Author: Sosthenes Kwame Boame
+Author-email: kwame.boame@live.com
+License: MIT
+Description: UNKNOWN
+Keywords: 'environment','virtualenv','envpath','python'
+Platform: UNKNOWN
