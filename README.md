@@ -9,6 +9,8 @@ Envpath is a command line utility for saving and retrieving your development env
 
 
 ## Usage
+This tool has only been tested on Windows.
+
 There are currently only two commands available.
 
 #### 1) Saving an env
@@ -18,12 +20,16 @@ If you want to save a virtual environment, make sure you are in the working dire
 
 You can use **-s** instead of **--save**
 
+After running this command, a batch file is saved (envname.bat) with the following command in it `@echo off \ncmd /k "cd {path} && workon {env}"`
+
 #### 2) Opening an env
 To open a previously saved environment, just run the following command from any directory or path (replace **envname** with the name of your environment):
 
 `envpath --open envname`
 
 Here too, you can also use **-o** instead of **--open**
+
+This command runs the matching batch file (envname.bat). It replaces `cd path/to/project/directory && workon EnvName`
 
 
 
