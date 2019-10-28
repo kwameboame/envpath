@@ -2,11 +2,12 @@
 
 Envpath is a command line utility for saving and retrieving your development environments and paths.
 
-
 ## Features
   - Save your development environment and path
   - Open saved environments and their paths from any directory
 
+## Installation
+Install this package with `pip install envpath`
 
 ## Usage
 This tool has only been tested on Windows.
